@@ -14,10 +14,10 @@
                         <div class="card-body p-0">
                             <div class="d-flex align-items-center">
                                 <div class="p-5">
-                                    <h2 class="fw-bolder">Project Name 1</h2>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius at enim eum illum aperiam placeat esse? Mollitia omnis minima saepe recusandae libero, iste ad asperiores! Explicabo commodi quo itaque! Ipsam!</p>
+                                    <h2 class="fw-bolder">EcoShop</h2>
+                                    <p>Developed a responsive e-commerce website for a local retail business. Implemented custom product pages, shopping cart functionality, and integrated secure payment gateways, resulting in a 40% increase in online sales.</p>
                                 </div>
-                                <img class="img-fluid" src="https://dummyimage.com/300x400/343a40/6c757d" alt="..." />
+                                <img class="img-fluid" src="/assets/EcoShop.jpg" alt="..." />
                             </div>
                         </div>
                     </div>
@@ -26,10 +26,10 @@
                         <div class="card-body p-0">
                             <div class="d-flex align-items-center">
                                 <div class="p-5">
-                                    <h2 class="fw-bolder">Project Name 2</h2>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius at enim eum illum aperiam placeat esse? Mollitia omnis minima saepe recusandae libero, iste ad asperiores! Explicabo commodi quo itaque! Ipsam!</p>
+                                    <h2 class="fw-bolder">TaskMaster</h2>
+                                    <p>Created a dynamic web application for project management, featuring real-time collaboration, task tracking, and notifications. Optimized for performance and accessibility, improving team productivity and user satisfaction.</p>
                                 </div>
-                                <img class="img-fluid" src="https://dummyimage.com/300x400/343a40/6c757d" alt="..." />
+                                <img class="img-fluid" src="/assets/TaskMaster.jpg" alt="..." />
                             </div>
                         </div>
                     </div>
@@ -42,7 +42,7 @@
         <div class="container px-5 my-5">
             <div class="text-center">
                 <h2 class="display-4 fw-bolder mb-4">Let's build something together</h2>
-                <a class="btn btn-outline-light btn-lg px-5 py-3 fs-6 fw-bolder" href="contact.html">Contact me</a>
+                <a class="btn btn-outline-light btn-lg px-5 py-3 fs-6 fw-bolder" href="/contact">Contact me</a>
             </div>
         </div>
     </section>
