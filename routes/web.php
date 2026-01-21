@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ResumeController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,3 +17,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/home', [ResumeController::class, 'index']);
+Route::get('/contact', [ResumeController::class, 'contact']);
+Route::get('/projects', [ResumeController::class, 'projects']);
+Route::get('/resume', [ResumeController::class, 'resume']);
