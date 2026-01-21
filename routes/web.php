@@ -19,6 +19,7 @@ Route::get('/', function () {
 });
 
 Route::get('/home', [ResumeController::class, 'index']);
-Route::get('/contact', [ResumeController::class, 'contact']);
+Route::get('/contact', [ResumeController::class, 'contactIndex']);
 Route::get('/projects', [ResumeController::class, 'projects']);
 Route::get('/resume', [ResumeController::class, 'resume']);
+Route::post('/contact', [ResumeController::class, 'contactSubmit']);

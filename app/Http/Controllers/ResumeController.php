@@ -11,7 +11,7 @@ class ResumeController extends Controller
         return view('home');
     }
 
-    public function contact()
+    public function contactIndex()
     {
         return view('contact');
     }
@@ -26,10 +26,8 @@ class ResumeController extends Controller
         return view('resume');
     }
 
-
-
-    // public function contactSubmit(Request $request)
-    // {
-    //     return view('contact', ['data' => $request]);
-    // }
+    public function contactSubmit(Request $request)
+    {
+        return view('contact', ['data' => $request]);
+    }
 }
