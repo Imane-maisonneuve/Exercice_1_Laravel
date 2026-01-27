@@ -28,6 +28,6 @@ class ResumeController extends Controller
 
     public function contactSubmit(Request $request)
     {
-        return view('contact', ['data' => $request]);
+        return view('submit_contact', ['data' => $request]);
     }
 }

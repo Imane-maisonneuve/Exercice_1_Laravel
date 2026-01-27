@@ -20,15 +20,8 @@
                         <!-- To make this form functional, sign up at-->
                         <!-- https://startbootstrap.com/solution/contact-forms-->
                         <!-- to get an API token!-->
-                        @isset($data)
-                        <p><strong>Name:</strong> {{ $data->full_name }}</p>
-                        <p><strong>Email:</strong> {{ $data->email }}</p>
-                        <p><strong>Phone:</strong> {{ $data->phone }}</p>
-                        <p><strong>Message:</strong> {{ $data->message }}</p>
-                        <p>Thank you for contacting us!
-                            Your message has been sent successfully. Our team will get back to you very shortly.</p>
-                        @else
-                        <form method="post" id="contactForm" data-sb-form-api-token="API_TOKEN">
+                        <!-- <form method="post" id="contactForm" data-sb-form-api-token="API_TOKEN"> -->
+                        <form method="post">
                             @csrf
                             <!-- Name input-->
                             <div class="form-floating mb-3">
@@ -77,7 +70,6 @@
                             <!-- Submit Button-->
                             <div class="d-grid"><button class="btn btn-primary btn-lg" id="submitButton" type="submit">Submit</button></div>
                         </form>
-                        @endisset
                     </div>
                 </div>
             </div>
